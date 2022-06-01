@@ -6,17 +6,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-        <div id = "breweries-list">List of Brewery Names</div>
-        <div id = "brewery-info">
-            <h1 id = "brewery-name">Brewery's Name</h1>
-            <p id = "brewery-address">Address</p>
-            <img
-            id = image
-            src = "https://fontmeme.com/permalink/180719/67429e6afec53d21d64643101c43f029.png"
-            >
-        </div>
-        <p id = "chug-count"># of Chugs</p>
-        <button id = "chug-button">Chug!</button>
+    <div id = "breweries-list">List of Brewery Names</div>
+      <div id = "brewery-info">
+        <h1 id = "brewery-name">Brewery's Name</h1>
+        <p id = "brewery-city">City</p> 
+        <p id = "brewery-state">State</p>
+            
+    <form id="new-brewery">
+      <h2 id="form-title">Add a brewery!</h2>  
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="new-name" />
+        <label for="city">City: </label>
+        <input type="text" name="city" id="new-city" />
+        <label for="state">State: </label>
+        <input type="text" name="state" id="new-state" />
+        <input type="submit" value="Create" />
+      </form>
         <script type = "text/javascript" src = "index.js"></script>
     </body>
 </html>
