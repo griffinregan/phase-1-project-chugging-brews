@@ -24,6 +24,12 @@ function renderBreweries(breweries) {
         brewCity.innerText = brewery.city
         brewState.innerText = brewery.state
       })
+
+    brewSpan.addEventListener('mouseover', () => {
+      brewSpan.style.backgroundColor = "blue"
+
+    })
+    brewList.append(brewSpan)
   });
   
   newBrewForm.addEventListener('submit', (e) => {
