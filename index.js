@@ -27,7 +27,7 @@ function renderBreweries(breweries) {
       })
 
     brewSpan.addEventListener('mouseover', () => {
-      brewSpan.style.backgroundColor = "blue"
+      brewSpan.setAttribute(id, 'new-brew-span')
 
     })
     brewList.append(brewSpan)
