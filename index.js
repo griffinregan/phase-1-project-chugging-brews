@@ -17,12 +17,13 @@ const brewPic = document.getElementById('image')
 function renderBreweries(breweries) {
   breweries.forEach(brewery => {
     let brewSpan = document.createElement('span')
+    brewSpan.setAttribute('id', 'brew-span')
     brewSpan.innerText = brewery.name
 
     brewSpan.addEventListener('click', (e) => {
         brewName.innerText = brewery.name
-        brewCity.innerText = brewery.city
-        brewState.innerText = brewery.state
+        brewCity.innerText = `City: ${brewery.city}`
+        brewState.innerText = `State: ${brewery.state}`
       })
 
     brewSpan.addEventListener('mouseover', () => {
