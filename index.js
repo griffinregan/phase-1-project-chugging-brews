@@ -27,7 +27,8 @@ function renderBreweries(breweries) {
       })
 
     brewSpan.addEventListener('mouseover', () => {
-      brewSpan.setAttribute(id, 'new-brew-span')
+      brewSpan.style.fontWeight = 'bold'
+      brewSpan.style.color = 'black'
 
     })
     brewList.append(brewSpan)

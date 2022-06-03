@@ -1,6 +1,6 @@
-body {
+  body {
     background: #696A6C;
-    background: url(‘independence-brewing-company.jpg’) center/cover;
+    background: url('independence-brewing-company.jpg') center/cover;
     background-color: black;
   }
   h1 {
@@ -39,8 +39,10 @@ body {
     font-weight: 100;
   }
 
-
-
+  #new-brew-span {
+    font-weight: 200;
+    color: black;
+  }
 
 
 
