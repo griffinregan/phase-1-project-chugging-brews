@@ -1,16 +1,49 @@
-#breweries-list {
-    display: flex;
-    justify-content: center;
-    background: azure;
-    height: 10rem;
-    padding: 5rem;
-}
+body {
+    background: #696A6C;
+    background: url(‘independence-brewing-company.jpg’) center/cover;
+    background-color: black;
+  }
+  h1 {
+    text-align: center;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 64px;
+  }
+  #brewery-city {
+    text-align: center;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  #brewery-state {
+    text-align: center;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  #new-brewery {
+    text-align: center;
+    color: #fff;
+    font-family: Arial;
+    font-weight: 300;
+    font-size: 25px;
+    border: black;
+  }
+  body {
+    text-align: left;
+    color: #fff;
+    font-family: Arial;
+    font-weight: 100;
+  }
 
-#brew-span {
-    background: white;
 
-}
 
-#brewery-info {
-    border: 3rem;
-}
+
+
+
+
+
+
